@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Audiowide:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500;700&family=Lato:wght@900&family=Qwitcher+Grypen:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 3em;
+
+  background: #4f8e4d;
+  background: linear-gradient(to right, #8af986, #4f8e4d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.padding-15 {
+  padding: 10px 40px;
+}
+
+.summery {
+  width: 70%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: "Silkscreen", "sans-serif";
+  font-size: 3em;
+  font-weight: 900;
+  padding-bottom: 0.5em;
+}
+h2 {
+  font-family: "Lato", Courier, monospace;
+  font-size: 2.5em;
+  font-weight: 900;
+  padding-bottom: 1.5em;
+}
+p {
+  font-family: "Qwitcher+Grypen", Arial, sans-serif;
+  margin-right: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+ul li {
+  padding: 0.5em 0 0.5em;
+  font-size: 1.2em;
+  font-family: "Audiowide", Arial, sans-serif;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 4rem;
+}
+.row-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 0 20%;
+  max-width: 20%;
+  text-align: center;
+  background-color: aliceblue;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+}
+.card h3 {
+  font-family: "Audiowide", Arial;
+}
+.card-img {
+  width: 100%;
+  text-align: center;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card-text {
+  width: 100%;
+  text-align: start;
+  padding: 1rem 2.5rem;
+}
+.card-text p {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 1.5rem;
+}
